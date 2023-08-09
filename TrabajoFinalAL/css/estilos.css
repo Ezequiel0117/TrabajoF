@@ -1,0 +1,95 @@
+body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-image: url("../img/PurpleNight.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      /* background-attachment: fixed; hace que la imagen del fondo se ajuste a el tamaño de la ventana */
+      background-attachment: fixed;
+      margin: 0;
+      padding: 20px;
+ }
+ h1{
+      color: #ffffff;
+      text-align: center;
+      background-color: transparent;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 0 auto;
+}
+.container{
+  /* display: flex; se unen pa poder cambiarlo como quiera solo cuando tiene elementos internos  */
+  display: flex;
+  /* justify-content: center; lo utiliza para centrar los 3 elementos internos */
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; el espacio entre los elementos */
+  gap: 5px;
+  /* flex-wrap: wrap; si no cabe, las manda hacia la parte de abajo */
+  flex-wrap: wrap;
+  /* max-width: 800px; el maximo que ocupa la pagina */
+  max-width: 800px;
+  /* margin: 0 auto; para no tener espacio ni arriba ni abajo */
+  margin: 0 auto;
+  /* background-color: #fff;muestra el ancho de la caja */
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* padding: 20px; para poner mas espacio dentro de la caja */
+  padding: 20px;
+  /* box-shadow: 0 5px 10px rgba(227, 22, 22, 0.5); para hacer una sombra a la caja */
+  /* box-shadow: 0 10px 15px rgba(97, 223, 255, 0.5); */
+  /* font-size: 32px; Para que las opciones se vean mas grandes */
+  font-size: 32px;
+}
+
+.boton {
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #a317b5;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 20px;
+      box-shadow:  0 10px 15px rgba(56, 49, 56, 0.5);
+      transition: all 0.4s ease-in-out;
+      
+}
+.boton:hover {
+      background-color: transparent;
+      padding: 10px 20px;
+}
+h6 {
+      color: #7b1818;
+      text-align: center;
+}
+/* estilos para los formularios */
+input {
+      text-align: center;
+      width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 15px;
+      border: 1px solid #ffffff;
+}
+
+#resp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 80%;
+      margin: 0 auto;
+      color:#fbf1f1;
+      font-weight: 900;
+      background-color: #ab65b5;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+    }
+.botones{
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 5px;
+     
+}
